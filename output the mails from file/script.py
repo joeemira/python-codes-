@@ -1,3 +1,5 @@
+import re
+
 emails = []
 pattern = re.compile(r"[^@]+@[^@]+\.[a-zA-Z]{2,}")
 
